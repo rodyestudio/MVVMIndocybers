@@ -42,6 +42,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (allValid) {
                     loginViewModel.sendLoginRequest(email, password);
+
+                    //ere
                 }
             }
         });
